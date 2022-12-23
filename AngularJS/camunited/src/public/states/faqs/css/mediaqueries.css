@@ -1,0 +1,72 @@
+    /* // Min-width*/
+/* // X-Small devices (portrait phones, less than 576px) */
+@media (min-width: 0px) {
+
+    /*Arrow Up*/
+
+  #Arrowup {
+  bottom: 20px;
+  left: 89vw;
+  }
+}
+/* // No media query for `xs` since this is the default in Bootstrap*/
+
+/* // Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) {  
+
+    /*Arrow Up*/
+
+  #Arrowup {
+  bottom: 20px;
+  left: 92.8vw;
+  }
+}
+
+
+/*// Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) { 
+
+  .bd-placeholder-img-lg {
+    font-size: 3.5rem;
+  }
+    /*Arrow Up*/
+
+  #Arrowup {
+  bottom: 20px;
+  left: 93.5vw;
+  }
+}
+
+/*// Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) { 
+
+    /*Arrow Up*/
+
+  #Arrowup {
+  bottom: 20px;
+  left: 94vw;
+  }
+}
+
+/*// X-Large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) { 
+
+    /*Arrow Up*/
+
+  #Arrowup {
+  bottom: 20px;
+  left: 94vw;
+  }
+}
+
+/*// XX-Large devices (larger desktops, 1400px and up)*/
+@media (min-width: 1400px) { 
+
+    /*Arrow Up*/
+
+  #Arrowup {
+  bottom: 20px;
+  left: 94vw;
+  }
+}
+

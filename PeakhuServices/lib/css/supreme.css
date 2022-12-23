@@ -1,0 +1,332 @@
+			/*Supreme CSS*/
+
+		/* Universal Selector */
+* { box-sizing: border-box;
+	padding: 0;
+	margin: 0;
+	font-size: 1rem;
+}
+** {
+	
+}
+		/* Body */
+html, body {
+	/*background: url('/assets/img/body/look-sky-from-foot-resized.png')
+		no-repeat top !important;*/
+	color: var(--bs-dark);
+	padding: 0;
+	margin: 0;
+}
+
+		/*  Header  */
+header {
+	position: absolute;
+	height: 0px;
+}
+a {
+	text-decoration: none;
+}
+ul {
+	list-style: none;
+}
+.href-links:hover {
+	text-decoration: underline solid silver;
+}
+		/* Navbar Brand */
+#header-nav {
+	position: relative;
+	box-shadow: 0px 1px 15px #2c2c2c;
+}
+#header-brand-img {
+	float: left;
+	position: relative;
+	top: 0rem;
+}
+#navbar-brand-branding {
+	position: relative;
+	top: 3px;
+	font-size: 1.7rem;
+	font-family: 'agisbold', Arial, sans-serif;
+}
+		/* Offcanvas page */
+.offcanvas {
+	width: auto;
+	height: auto;
+}
+.offcanvas-title {
+	float: left;
+	color: #000000;
+	line-height: 0;
+	text-decoration: none;
+	font-size: 1rem;
+}
+
+		/*Navigation lists and item*/
+#navbarToggle {
+	position: relative;
+}
+.dropdown-header {
+	font-size: 1.1rem !important;
+}
+.nav-link.active {
+	background-color: #00aeef !important;
+	border-radius: 25px !important;
+	color: #FFFFFF !important;
+}
+#nav-list {
+	float: right;
+	position: relative;
+}
+.nav-link a:hover, .nav-link a:focus {
+  color: #FFFFFF !important;
+}
+.nav-link {
+	border-radius: 25px;
+	color: #000000 !important;
+}
+.nav-item {
+	text-align: center;
+	position: relative;
+}
+.nav-item a:hover, .nav-item a:focus {
+	background-color: #00aeef;
+	border-radius: 25px;
+	color: #FFFFFF !important;
+}
+.navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .show>.nav-link {
+    color: #FFFFFF;
+    background-color: #00aeef;
+}
+
+		/* Jumbotron */
+
+#content-Jumbotron-01 {
+	background: url('/assets/img/body/look-sky-from-foot-resized.png')
+		repeat center !important;
+		/* background-color: transparent; */
+}
+
+#main-content {
+	background: url('/assets/img/jumbotron-01/configurationofworks-topcutting.png')
+		repeat center !important;
+		/* background-color: #f8f9fa !important; */
+
+}
+#content-Jumbotron-02 {
+	background: url('/assets/img/jumbotron-02/city-skyline-center-resized-bottom-extended.png')
+		no-repeat top !important;
+}
+
+    	/***  Footers  ***/
+footer#page-Footer {
+	position: relative;
+	color: black;
+	padding: 0;
+	margin: 10px;
+	height: auto;
+}
+#div-Footer {
+	position: absolute;
+	background: url('/assets/img/footer/footer-bg-01.png')
+		no-repeat top !important;
+	margin: 0;
+	padding: 0;
+	height: auto;
+	box-shadow: -1px 0 15px #2c2c2c;
+}
+#footer-container-01 {
+	border: 1px solid black;
+	border-radius: 0.7rem;
+	width: 60vw;
+	margin-right: 5px;
+}
+#footer-container-02 {
+	border: 1px solid black;
+	border-radius: 0.7rem;
+	width: 40vw;
+	margin-left: 2px;
+	margin-top: 2px;
+	margin-right: 0;
+	padding-left: 13px;
+}
+#footer-hr {
+	width: 90%;
+	position: relative;
+	left: 1vw;
+	margin: 7px;
+}
+#rightFooter-logo {
+	margin-top: 10px;
+}
+#rightFooter-logo-svg {
+	position: relative;
+}
+#rightFooter-brand {
+}
+#rightfooter-branding {
+	float: left;
+	margin-left: 0.5rem;
+}
+
+		/* Arrow up */
+#Arrowup {
+	bottom: 15px;
+	right: 94vw;
+}
+#Arrowup-a {
+}
+
+		/*Loading GIF*/
+
+#loading-gif {
+	height: auto;
+}
+
+		/*  Camunited Background Color  */
+.camunited-bg-light {
+	background-color: #f8f9fa !important;
+}
+.camunited-bg-gray {
+	background-color: #808080 !important;
+}
+.camunited-bg-darkblue {
+	background-color: #2e3191 !important;
+}
+.camunited-bg-skyblue {
+	background-color: #00aeef !important;
+}
+.camunited-bg-darkgreen {
+	background-color: #006838 !important;
+}
+.camunited-bg-lightgreen {
+	background-color: #8dc63f !important;
+}
+.camunited-bg-red {
+	background-color: #ed1c24 !important;
+}
+.camunited-bg-yellow {
+	background-color: #fff200 !important;
+}
+.camunited-bg-dark {
+	background-color: #212529 !important;
+}
+
+		/*  Camunited Color Apply */
+.camunited-light {
+	color: #f8f9fa !important;
+}
+.camunited-gray {
+	color: #808080 !important;
+}
+.camunited-darkblue {
+	color: #2e3191 !important;
+}
+.camunited-skyblue {
+	color: #00aeef !important;
+}
+.camunited-darkgreen {
+	color: #006838 !important;
+}
+.camunited-lightgreen {
+	color: #8dc63f !important;
+}
+.camunited-red {
+	color: #ed1c24 !important;
+}
+.camunited-yellow {
+	color: #fff200 !important;
+}
+.camunited-dark {
+	color: #212529 !important;
+}
+
+}
+.text-small {
+  font-size: 85%;
+}
+.dropdown-toggle {
+  outline: 0;
+}
+
+.rounded-nav {
+  border-radius: 0.8rem !important;
+}
+#languageNav {
+	position: relative;
+	bottom: 1rem;
+	left: 0.3rem;
+}
+.rounded-4 { border-radius: .5rem;}
+.rounded-5 { border-radius: .75rem;}
+.rounded-6 { border-radius: 1rem;}
+.rounded-7 {border-radius: 1.7rem;}
+
+/** Search Form **/
+/* Dropdown Button */
+.dropbtn {
+  background-color: #04AA6D;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+}
+
+/* Dropdown button on hover & focus */
+.dropbtn:hover, .dropbtn:focus {
+  background-color: #3e8e41;
+}
+
+/* The search field */
+#myInput {
+	width: 90%;
+	height: auto;
+  box-sizing: border-box;
+  background-position: 14px 12px;
+  font-size: 14px;
+  padding: 14px 20px 12px 45px;
+  border: none;
+  border-bottom: 1px solid #ddd;
+  margin-left: 11px;
+}
+
+/* The search field when it gets focus/clicked on */
+#myInput:focus {outline: 3px solid #ddd;}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown-2 {
+  position: relative;
+  display: inline-block;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  color: #dee2e6;
+  background-color: #343a40;
+  border-color: rgba(0, 0, 0, 0.15);
+  min-width: 230px;
+  border: 1px solid #ddd;
+  z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+  color: white;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  border-radius: .75rem;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {background-color: #808080}
+
+/* Show the dropdown menu (use JS to add this class to the .dropdown-content container when the user clicks on the dropdown button) */
+.show {display:block;}
+
+#footer-dialog {
+	float: right;
+	clear: right;
+}

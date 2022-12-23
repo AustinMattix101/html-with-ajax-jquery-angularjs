@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>First Apps Hello world!</title>
+	<script type="text/javascript" src="angular.min.js"></script>
+	<script type="text/javascript" src="app.js"></script>
+</head>
+<body ng-app="NumericValue"	>
+	<h1>Name calculator</h1>
+	<div ng-controller="InputsController" ng-keyup="displayNumeric();">
+		<p>Your name:</p>
+		<input type="text" name=""input2 ng-model="inputValue">
+		<p>Total numeric value of people's name!</p> : {{totalValue}}.
+		
+	</div>
+</body>
+</html>
